@@ -11,42 +11,44 @@
     <title>Manish Cinema Website!</title>
   </head>
   <body>
-    <div class="container"> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">About 
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Deals</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">Show Times</a>
-                  </li>
-               
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary my-2 my-sm-0  text-light" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+     
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#showtimes">Showtimes</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#deals">Deals</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary my-2 my-sm-0  text-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+    </div>
+    <!-- Jumbotron -->
           <div class="jumbotron jumbotron-fluid bg-info text-center">
             <div class="container">
               <h1 class="display-4  text-light">PVR Cinemas</h1>
               <p class="lead">Hi, Welcome to the PVR Cinemas, Enjoy your SHOW</p>
             </div>
           </div>
-
+ <!-- About section -->
           <div class="container">
             <div class="row">
               <div class="col-sm">
                 <img class="img-fluid" src="./img/PVR.jpeg" alt=""/>
               </div>
               <div class="col-sm">
-                About the PVR Cinemas:
+                <h3 id="about">About the PVR Cinemas:</h3>
                 Indian multiplex chain based in Mumbai
                 How multiplex chains are looking at newer sources of revenue - BusinessToday
                 PVR Cinemas is an Indian multiplex chain based in Mumbai. 
@@ -74,17 +76,65 @@
             </div>
         </div>
           </div>
-
-          <div class="text-center">
-            <form>
-                <h1 class="text-primary my-5">Sign Up for my Movie Club Rewards</h1>
-                <div class="form-group">
-           
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-
+          <div class="container">
+            <h3 id="showtimes">Showtimes:</h3>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card h-100">
+                  <img class="card-img-top h-50" src="./img/topgun.jpeg" style="object-fit: cover" alt="Top Gun image">
+                  <div class="card-body">
+                    <h5 class="card-title">Top Gun</h5>
+                    <p class="card-text">The Top Gun Naval Fighter Weapons School is where the best of the best train to refine their elite flying skills. When hotshot fighter pilot Maverick (Tom Cruise) is sent to the school, his reckless attitude and cocky demeanor put him at odds with the other pilots,</p>
+                    <h6>
+                      <span class="badge badge-secondary bg-info text-light">1:00pm</span>
+                      <span class="badge badge-secondary bg-info text-light">3:00pm</span>
+                      <span class="badge badge-secondary bg-info text-light">5:30pm</span>
+                      <span class="badge badge-secondary bg-info text-light">7:00pm</span>
+                      <span class="badge badge-secondary bg-info text-light">9:00pm</span>
+                    </h6>
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+              </div>
+              <div class="col-sm-4">
+                <div class="card h-100">
+                  <img class="card-img-top h-50" src="./img/sonic.jpeg" style="object-fit: cover" alt="Sonic image">
+                  <div class="card-body">
+                    <h5 class="card-title">Sonic</h5>
+                    <p class="card-text">The Top Gun Naval Fighter Weapons School is where the best of the best train to refine their elite flying skills. When hotshot fighter pilot Maverick (Tom Cruise) is sent to the school, his reckless attitude and cocky demeanor put him at odds with the other pilots,</p>
+                    <h6>
+                      <span class="badge badge-secondary bg-info text-light">1:00pm</span>
+                      <span class="badge badge-secondary bg-info text-light">3:00pm</span>
+                      <span class="badge badge-secondary bg-info text-light">5:30pm</span>
+                      <span class="badge badge-secondary bg-info text-light">7:00pm</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+            <div class="card h-100">
+              <img class="card-img-top h-50" src="./img/her.jpeg" style="object-fit: cover" alt="Her image">
+              <div class="card-body">
+                <h5 class="card-title">Her</h5>
+                <p class="card-text">A sensitive and soulful man earns a living by writing personal letters for other people. Left heartbroken after his marriage ends, Theodore (Joaquin Phoenix) becomes fascinated with a new operating system which reportedly develops into an intuitive and unique entity in its own right.</p>
+                  <span class="badge badge-secondary bg-info text-light">1:00pm</span>
+                  <span class="badge badge-secondary bg-info text-light">3:00pm</span>
+                  <span class="badge badge-secondary bg-info text-light">5:30pm</span>
+                  <span class="badge badge-secondary bg-info text-light">7:00pm</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ <!-- Sign up for club -->
+ <div class="text-center">
+  <form id="deals">
+    <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+    <div class="mb-3">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
              <div class="text-center">
 
